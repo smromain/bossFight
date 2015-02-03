@@ -2,9 +2,13 @@
 
 You're creating the final level of the role playing game, <b>Final Stackery 7</b>.
 
+##Scenario
+
 <b>Your mission:</b> Implement an object-oriented Javascript based 'final battle scenario', where your hero, Stacky, fights against the boss, the Evil Lord Exception. 
 
 <i><b>Simulate 100 battles, and determine how often your hero would win as well as how often the boss would win.</b></i>
+
+##Rules
 
 Heroes and bosses should have the ability to:
 <ul>
@@ -33,6 +37,7 @@ Attack: -10 HP from opponent,
 Dodge: Dodges attacks from opponents 20% of the time
 ```
 
-<b>Extra Credit</b>: Your hero, Stacky, finds the <a href="https://www.youtube.com/watch?v=OBtsMTnstZM" target="_blank">Sword of Refactoring</a>! They now have a special attack, which means that 33% of the time, their attacks hit for 1/5 of the boss's health <i>(eg, if the boss's health is 100HP, your hero's attack will -20HP from the boss)</i>. If the special attack is used, but does not succeed (aka 67% of the time), a normal attack is used.
+##Extra Credit
+Your hero, Stacky, finds the <a href="https://www.youtube.com/watch?v=OBtsMTnstZM" target="_blank">Sword of Refactoring</a>! They now have a special attack, which means that 33% of the time, their attacks hit for 1/5 of the boss's health <i>(eg, if the boss's health is 100HP, your hero's attack will -20HP from the boss)</i>. If the special attack is used, but does not succeed (aka 67% of the time), a normal attack is used.
 
 Implement this method in your solution, but only have Stacky use this attack if beneficial to do so.
