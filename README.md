@@ -31,6 +31,6 @@ Attack: -12 HP from opponent,
 Dodge: Dodges attacks from opponents 10% of the time
 ```
 
-<b>Extra Credit</b>: Your hero, Stacky, finds the <a href="https://www.youtube.com/watch?v=OBtsMTnstZM" target="_blank">Sword of Refactoring</a>! They now have a special attack, which means that 33% of the time, their attacks hit for 1/5 of the boss's health <i>(eg, if the boss's health is 100HP, your hero's attack will -20HP from the boss)</i>. If the special attack is used, but does not succeed (this should happen 2/3 of the time), a normal attack is used.
+<b>Extra Credit</b>: Your hero, Stacky, finds the <a href="https://www.youtube.com/watch?v=OBtsMTnstZM" target="_blank">Sword of Refactoring</a>! They now have a special attack, which means that 33% of the time, their attacks hit for 1/5 of the boss's health <i>(eg, if the boss's health is 100HP, your hero's attack will -20HP from the boss)</i>. If the special attack is used, but does not succeed (aka 67% of the time), a normal attack is used.
 
 Implement this method in your solution, but only have Stacky use this attack if beneficial to do so.
