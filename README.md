@@ -16,9 +16,9 @@ Your hero, Stacky, should have the following abilities/properties:
 ```
 Health: 60HP,
 
-Attack: -8 HP from opponent,
+Attack: -6 HP from opponent,
 
-Dodge: Dodges attacks from opponents 50% of the time
+Dodge: Dodges attacks from opponents 60% of the time
 ```
 
 The boss, the Evil Lord Exception, should have the following abilities/properties:
@@ -26,9 +26,9 @@ The boss, the Evil Lord Exception, should have the following abilities/propertie
 ```
 Health: 100HP,
 
-Attack: -12 HP from opponent,
+Attack: -10 HP from opponent,
 
-Dodge: Dodges attacks from opponents 10% of the time
+Dodge: Dodges attacks from opponents 20% of the time
 ```
 
 <b>Extra Credit</b>: Your hero, Stacky, finds the <a href="https://www.youtube.com/watch?v=OBtsMTnstZM" target="_blank">Sword of Refactoring</a>! They now have a special attack, which means that 33% of the time, their attacks hit for 1/5 of the boss's health <i>(eg, if the boss's health is 100HP, your hero's attack will -20HP from the boss)</i>. If the special attack is used, but does not succeed (aka 67% of the time), a normal attack is used.
