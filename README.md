@@ -1,23 +1,36 @@
 # REACTO: BossFight.js
 
-You're creating the final level of the role playing game, Final Stackery 7. Implement an object-oriented Javascript based 'final battle scenario', where your hero, Stacky, fights against the boss, the Evil Lord Exception. Simulate 100 battles, and determine how often your hero would win as well as how often the boss would win.
+You're creating the final level of the role playing game, <b>Final Stackery 7</b>.
 
-Heroes and bosses should have the ability to have health, attack for a certain amount of damage, and dodge (where their opponents would fail their attacks a certain percentage of the time).
+<b>Your mission:</b> Implement an object-oriented Javascript based 'final battle scenario', where your hero, Stacky, fights against the boss, the Evil Lord Exception. Simulate 100 battles, and determine how often your hero would win as well as how often the boss would win.
+
+Heroes and bosses should have the ability to:
+<ul>
+    <li>Have health (aka HP). If a player reaches 0 HP, they are considered 'dead', and the battle should end.</li>
+    <li>Attack for a certain amount of damage. This will remove hit points from their opponents)</li> 
+    <li>Dodge Attacks. Every turn, the player gets a chance to dodge, which means their opponent's attack would fail.</li>
+</ul>
 
 Your hero, Stacky, should have the following abilities/properties:
 
-```Health: 60HP,
+```
+Health: 60HP,
 
-	Attack: -8 HP from opponent,
-	
-	Dodge: Dodges attacks from opponents 50% of the time```
+Attack: -8 HP from opponent,
 
-The boss should have the following abilities/properties:
+Dodge: Dodges attacks from opponents 50% of the time
+```
 
-```Health: 100HP,
+The boss, the Evil Lord Exception, should have the following abilities/properties:
 
-	Attack: -12 HP from opponent,
+```
+Health: 100HP,
 
-	Dodge: Dodges attacks from opponents 10% of the time```
+Attack: -12 HP from opponent,
 
-<b>Extra Credit</b>: Your hero finds the <a href="https://www.youtube.com/watch?v=OBtsMTnstZM" target="_blank">Sword of Refactoring</a>! They now have a special attack, which means that 25% of the time, their attacks hit for 1/5 of the boss's health <i>(eg, if the boss's health is 100HP, your hero's attack will -20HP from the boss)</i>. Implement this method in your solution, but only have your hero Stacky use it if it's beneficial to do so.
+Dodge: Dodges attacks from opponents 10% of the time
+```
+
+<b>Extra Credit</b>: Your hero, Stacky, finds the <a href="https://www.youtube.com/watch?v=OBtsMTnstZM" target="_blank">Sword of Refactoring</a>! They now have a special attack, which means that 33% of the time, their attacks hit for 1/5 of the boss's health <i>(eg, if the boss's health is 100HP, your hero's attack will -20HP from the boss)</i>. If the special attack is used, but does not succeed (this should happen 2/3 of the time), a normal attack is used.
+
+Implement this method in your solution, but only have Stacky use this attack if beneficial to do so.
