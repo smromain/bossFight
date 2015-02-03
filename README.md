@@ -2,7 +2,9 @@
 
 You're creating the final level of the role playing game, <b>Final Stackery 7</b>.
 
-<b>Your mission:</b> Implement an object-oriented Javascript based 'final battle scenario', where your hero, Stacky, fights against the boss, the Evil Lord Exception. Simulate 100 battles, and determine how often your hero would win as well as how often the boss would win.
+<b>Your mission:</b> Implement an object-oriented Javascript based 'final battle scenario', where your hero, Stacky, fights against the boss, the Evil Lord Exception. 
+
+<b>Simulate 100 battles, and determine how often your hero would win as well as how often the boss would win.</b>
 
 Heroes and bosses should have the ability to:
 <ul>
